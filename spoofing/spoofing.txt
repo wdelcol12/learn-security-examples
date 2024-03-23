@@ -1,1 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+When the cookie configuration in Insecure.js is set to false. This means that the cookies 
+are vulnerable to an attack because everyone can have access to the client side scripts.
+In accordance with the above that means anyone with access to the cookies can be an authenticated user.
+Meanwhile secure prevents this by denying access to client side scripts with means attackers
+cannot impersonate a logged in user

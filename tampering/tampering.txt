@@ -1,0 +1,13 @@
+Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+
+Within the /register endpoint, the user input is sent back to the client side application
+As javascript code, this means that through Injection attacks the attackers
+can input malicious code that will be reflected on the client side of the application 
+for different users.
+
+Which CIA property does tampering violate?
+
+This tampers with the integrity propert of CIA. They can manipulate data that is 
+stored within the database through client side attacks, before registering there is no
+way to validate the user.
