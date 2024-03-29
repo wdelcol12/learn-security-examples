@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+The vulnerability of a DoS attack comes from limiting the input that will cause too many requests for a server
+A DoS attack can put in bad or invalid input to crash the server with numerous amounts
+of requests. Rate limiting and validating the user input in the request are two remedies for
+this type of vulnerability

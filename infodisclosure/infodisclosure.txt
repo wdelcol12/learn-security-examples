@@ -1,3 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+This vulnerability can be prone to SQL injection attacks. SQL injection attacks can pose
+as a query in the database, but actually exposes user private information. Before insertion
+into the database the query should be in a valid format and sanitized.

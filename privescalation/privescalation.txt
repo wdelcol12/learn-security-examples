@@ -1,0 +1,6 @@
+This vulnerability the attacker relies on getting verification or authentication in some way.
+This can be through phishing links or tricking a user into giving them private information 
+about the users profile. If a user had administrative powers and it is given to a 
+attacker then he can change his own account to another user role allowing the attacker for more
+power and poses as a threat to the application. 
+
